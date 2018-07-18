@@ -16,6 +16,6 @@ Plugins usados:
   Wow - https://mynameismatthieu.com/WOW/
 
 
-Para conhecer mais do meu trabalho acesse: https://matheusmhq.github.io/
+Para conhecer mais trabalhos acesse: https://matheusmhq.github.io/
 
 Obrigado! =)
