@@ -1,11 +1,11 @@
 # Advocacia - website
 
-Site de uma ADVOCACIA desenvolvido por mim para fins de estudo.
+Site de uma ADVOCACIA fictícia desenvolvido por mim para fins de estudo.
 
 Desenvolvi usando HTML5, CSS3 e Jquery.
 
 
-Plugins:
+Plugins usados:
 
   OwlCarousel - https://owlcarousel2.github.io/OwlCarousel2/
 
