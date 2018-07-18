@@ -14,3 +14,8 @@ Plugins usados:
   Animate - https://daneden.github.io/animate.css/
   
   Wow - https://mynameismatthieu.com/WOW/
+
+
+Para conhecer mais do meu trabalho acesse: https://matheusmhq.github.io/
+
+Obrigado! =)
