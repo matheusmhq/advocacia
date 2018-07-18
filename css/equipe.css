@@ -1,0 +1,172 @@
+.fotoadvogado {
+    width: 270px;
+    height: 250px;
+}
+
+
+#equipe {
+    text-align: center;
+}
+
+
+.bgequipe:hover .fotoadvogado, .bgequipe:hover .nomepadraoad, .bgequipe:hover .equipeicone, .bgequipe:hover .contatoetelad p {
+    filter: grayscale(1%);
+    color: #880000;
+}
+
+.linhaequipe {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    border-top: 5em;
+}
+
+
+
+/* DESKTOP*/
+@media screen and (min-width: 768px) {
+    #fotopadrao {
+        background: url(../img/equipe/fescritorio-desktop.jpg) no-repeat center;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    .bgequipe {
+        display: flex;
+        margin-top: 5em;
+    }
+    
+    .nomepadraoad {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: bolder;
+    }
+    
+    .bgfotoadvogados {
+        min-width: 300px;
+        height: 425px;
+        background: rgba(229, 229, 229, 0.17);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 1em.
+    }
+    
+    .textoequipe {
+        padding-left: 2em;
+        text-align: left;
+    }
+    
+    .textoequipe p {
+        margin-bottom: 1.5em;
+    }
+    
+    .textoequipe p:first-child {
+        margin-top: 1em;
+    }
+    
+    .redesequipe {
+        
+    }
+    
+    .equipeicone {
+        margin-right: .5em;
+        font-size: 1.2em;
+        color: #696969;
+    }
+    
+    .contatoetelad {
+        margin-top: 1em;
+    }
+    
+    .emailad {
+        font-size: .9em;
+    }
+    
+    .telad {
+        font-size: .9em;
+        margin-top: .5em;
+        margin-bottom: 1.5em;
+    }
+}
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    #fotopadrao {
+        background: url(../img/equipe/fescritorio-mobile.jpg) no-repeat center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    .bgequipe {
+        display: flex;
+        margin-top: 4em;
+        flex-direction: column;
+    }
+    
+    .nomepadraoad {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: bolder;
+    }
+    
+    .bgfotoadvogados {
+        max-width: 300px;
+        height: 425px;
+        background: rgba(229, 229, 229, 0.33);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+    
+    .textoequipe {
+
+    }
+    
+    .textoequipe p {
+        margin-bottom: 1.5em;
+        text-align: justify;
+    }
+    
+    .redesequipe {
+       
+    }
+    
+    .equipeicone {
+        margin-right: .5em;
+        font-size: 1.2em;
+        color: #696969;
+    }
+    
+    .contatoetelad {
+        margin-top: 1em;
+    }
+    
+    .emailad {
+        font-size: .9em;
+    }
+    
+    .telad {
+        font-size: .9em;
+        margin-top: .5em;
+        margin-bottom: 1.5em;
+    }
+}

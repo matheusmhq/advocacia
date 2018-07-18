@@ -1,0 +1,51 @@
+#quem-somos-pi {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    overflow: hidden;
+}
+
+.bgqs-pi {
+    display: flex;
+}
+
+.sobre-pi {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.textosobre-pi {
+    
+}
+
+.separadoqs-pi {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.separadoqs-pi p {
+    width: %;
+}
+
+.espacoqs {
+    width: 100px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .bgqs-pi {
+        flex-direction: column;
+    }
+    
+    .separadoqs-pi:first-child {
+        margin-bottom: 2em;
+    }
+    
+    .separadoqs-pi p {
+        width: 100%;
+    }   
+    
+    .espacoqs {
+        display: none;
+    }
+}

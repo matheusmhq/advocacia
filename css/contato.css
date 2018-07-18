@@ -1,0 +1,213 @@
+#contato {
+    text-align: center;
+}
+
+
+/* DESKTOP*/
+@media screen and (min-width: 768px) {
+    #fotopadrao {
+        background: url(../img/contato/fcontato-desktop.jpg) no-repeat center;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+    
+    .separador {
+        display: flex;
+        margin: 3em 0;
+    }
+    
+    .info {
+        background: rgba(206, 206, 206, 0.15);
+        padding: 1em;
+        margin-right: 1.5em;
+    }
+
+    .infoseparada {
+        display: flex;
+        margin: 1.5em 0;
+    }
+
+    h5 {
+        margin-left: 1em; 
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: left;
+    }
+
+    .infoindividual p {
+        margin-left: 1em; 
+        margin-top: 1em;
+        text-align: left;
+    }
+
+    .iconep {
+        color: #880000;
+        font-size: 1.3em;
+        height: 30px;
+    }
+
+    .configmapa {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    .info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .formcontato {
+        width: 50%;
+    }
+
+    #fs {
+       border: none; 
+    }
+
+    #fs div {
+    }
+
+    #fs input {
+        width: 100%;
+        height: 40px;
+        margin: 0.2em 0;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 0 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    #fs input:last-child {
+        border: none;
+        background: #880000;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    #fs input:last-child:hover {
+        background: rgba(136, 0, 0, 0.77);
+    }
+
+    #fs textarea {
+        width: 100%;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+}
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    #fotopadrao {
+        background: url(../img/contato/fcontato-mobile.jpg) no-repeat center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+    
+      .separador {
+        display: flex;
+        margin: 3em 0;
+        flex-direction: column;
+    }
+    
+    .info {
+        background: rgba(206, 206, 206, 0.15);
+        padding: 1em;
+    }
+    
+
+    .infoseparada {
+        display: flex;
+        margin: 1.5em 0;
+    }
+
+    h5 {
+        margin-left: 1em; 
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: left;
+    }
+
+    .infoindividual p {
+        margin-left: 1em; 
+        margin-top: 1em;
+        text-align: left;
+    }
+
+    .iconep {
+        color: #880000;
+        font-size: 1.3em;
+        height: 30px;
+    }
+
+    .configmapa {
+        width: 100%;
+        height: 350px;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: 
+    }
+
+    .formcontato {
+        width: 100%;
+        margin-top: 4em;
+    }
+
+    #fs {
+       border: none; 
+    }
+
+    #fs div {
+    }
+
+    #fs input {
+        width: 100%;
+        height: 40px;
+        margin: 0.2em 0;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 0 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    #fs input:last-child {
+        border: none;
+        background: #880000;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    #fs input:last-child:hover {
+        background: rgba(136, 0, 0, 0.77);
+    }
+
+    #fs textarea {
+        width: 100%;
+        border: .5px solid rgba(0, 0, 0, 0.21);
+        padding: 1em;
+        border-radius: 5px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+    }
+}

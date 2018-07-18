@@ -1,0 +1,218 @@
+header {
+    width: 100%;
+    background: white;
+}
+
+
+.btMenu {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: #000000;
+    font-size: 0.8em;
+}
+
+.formpesquisa {
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+.letramf {
+    color: rgb(85, 85, 85) !important;
+}
+
+.letramf:hover {
+    color: #880000 !important;
+}
+
+.ac, .ac2 {
+    color: #880000 !important;
+}
+
+
+.menu-fixo {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 10;
+}
+
+
+.bbottom {
+    border-bottom: 2px #6d0000 solid !important;
+}
+
+
+/* ARRUMAR MARGIN MENU E LOGO*/
+@media screen and (min-width: 1200px){
+    .menu li:last-child {
+        margin-right: -16px;
+    }
+    
+    .logo{
+        margin: 0 0 !important;
+    }
+}
+
+
+
+
+/* DESKTOP */
+@media screen and (min-width: 1000px){
+    
+    .sempadding {
+        padding-top: .5em !important;
+        padding-bottom: .5em !important;
+        transition: all 2s !important;
+        -moz-transition: all 2s !important;
+        -webkit-transition: all 2s !important;
+    }
+    
+    
+    .btMenu, .logomfixo, .logomobile {
+        display: none;
+    }
+    
+    .lupapesquisa {
+        color: white;
+        font-size: 1.1em;
+        margin-left: 1em;
+        cursor: pointer;
+        display: none;
+    }
+
+    #divheader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 0;
+    }
+
+    .logo {
+        margin-left: 16px;
+    }
+
+    /* //// MENU DESKTOP //// */
+    #divMenu {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .bgmenu {
+        background-size: 15px 4px;
+        width: %;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menu ul li a {
+        display: block;
+        padding: 14px 14px 13px 14px;
+        color: rgb(85, 85, 85);
+        font-size: 1.1em;
+        font-weight: bold;
+        -moz-transition: all 1s;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .letramenor {
+        font-size: 0.5;
+    }
+
+     .menu ul li a:hover {
+          color: #880000;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 999px) {
+
+    #divheader {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    
+    .logodesktop, .logomfixo {
+        display: none;
+    }
+    
+    .lupapesquisa {
+        color: #000000;
+        font-size: 1.1em;
+        cursor: pointer;
+        margin-left: 10px;
+        padding: 1em 0;
+        display: none;
+    }
+    
+    .divlogomenu {
+        display: flex;
+        flex-direction: row !important;
+        width: 100% !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .sempadding {
+        margin: 0 0 !important;
+        padding-top: .2em !important;
+        padding-bottom: .2em !important;
+        transition: all 2s !important;
+        -moz-transition: all 2s !important;
+        -webkit-transition: all 2s !important;
+    }
+    
+    .mhpreto {
+        color: black;
+    }
+    
+    /* //// MENU MOBILE //// */
+    #divMenu {
+        width: 100%;
+        margin: 0 auto;
+        display: none;   
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    .bgmenu {
+        background: #ffffff;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .menu ul li a {
+        display: block;
+        padding: 14px 14px 13px 14px;
+        color: #000000;
+        font-size: 1em;
+        -moz-transition: all 1s;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+     .menu ul li a:hover {
+          color: #880000;
+    }
+    
+}

@@ -1,0 +1,44 @@
+#padraopaginas {
+
+}
+
+#padraopaginas div {
+    margin-bottom: .5em;
+    display: flex;
+    align-items: center;
+}
+
+#padraopaginas div p {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: .7em;
+    margin-right: .5em;
+    color: #989898;
+}
+
+#padraopaginas div p:first-child:hover {
+    text-decoration: underline;
+}
+
+.iconepp {
+    font-size: .6em;
+    margin-right: .5em;
+    color: #989898;
+}
+
+.iconepp:first-child {
+    font-size: .9em;
+}
+
+.linhadivisao {
+    border-bottom: .5px rgba(0, 0, 0, 0.26) solid;
+    margin-bottom: 5em;
+}
+
+
+@media screen and (max-width: 767px) {
+    .linhadivisao {
+        margin-bottom: 3em;
+    }
+}

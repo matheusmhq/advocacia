@@ -1,0 +1,289 @@
+.cativo {
+    background: rgb(170, 4, 4) !important;
+    transform: scale(1.05);
+}
+
+/*  DESKTOP */
+@media screen and (min-width: 1024px){
+    #area-atuacao-pi {
+        background: url(../img/area-atuacao/area-atuacao-desktop.jpg) no-repeat center fixed;
+        padding: 4em 0;
+        overflow: hidden;
+    }
+
+    .textoada {
+        text-align: center;
+    }
+
+    .textoada h3 {
+        font-size: 2.5em;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    .branco {
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+    .ipatuacao {
+        font-size: 1.4em;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .divisaochamada {
+        display: flex;
+        align-items: center;
+        height: 400px;
+    }
+
+    .chamada {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5em 0;
+        flex-wrap: wrap;
+    }
+
+    .btvertodos {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(119, 117, 117, 0.45) !important;
+    }
+    
+    .chamadaind {
+        display: flex;
+        align-items: center;
+        justify-content: space-arond;
+        width: 47%;
+        cursor: pointer;
+        padding: 1em 1em;
+        background: rgba(121, 55, 55, 0.54);
+        margin-bottom: .5em !important;
+        transition: all .5s;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        margin: 0px 0px;
+    }
+
+    .chamadaind:hover {
+        transform: scale(1.05);
+    }
+
+
+    .areaespecifica {
+        text-transform: uppercase !important;
+        color: #ffffff !important;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51) !important;
+        font-size: 1.5em !important;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: .5em !important;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .chamadaind p {
+        color: white;
+        text-align: justify;
+        font-size: .8em;
+    }
+
+
+    .chamadatexto {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .textopadrao {
+        background: rgba(121, 121, 121, 0.48);
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        padding: 1em;
+        display: none;
+        border-radius: 1em;
+    }
+
+    .textofixo {
+        background: rgba(121, 121, 121, 0.48);
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        width: 85%;
+        padding: 1em;
+        border-radius: 1em;
+    }
+
+
+    .texto01 p, .texto02 p, .texto03 p, .texto04 p, .texto05 p, .texto06 p, .texto07 p, .texto08 p {
+        color: white;
+        margin-bottom: 1em;
+        font-size: 1.2em;
+        text-shadow: 1px 1px 5px black;
+    }
+}
+
+
+
+@media screen and (min-width: 725px) {
+    
+    .btvertodos {
+        width: 705px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+    
+    .chamadaind {
+        margin: 0 .5em;
+    }
+}
+
+
+@media screen and (min-width: 1023px) {
+    .chamada {
+        width: 60% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .chamada {
+        width: 50% !important;
+    }
+}
+
+
+
+
+/*  MOBILE */
+@media screen and (max-width: 1023px){
+
+    #area-atuacao-pi {
+        background: url(../img/area-atuacao/area-atuacao-mobile.jpg) no-repeat center fixed;
+        background-size: cover;
+        padding: 4em 0;
+        overflow: hidden;
+    }
+    
+    
+    .textoada {
+        text-align: center;
+    }
+
+    .textoada h3 {
+        font-size: 2.1em;
+        text-shadow: 1px 1px 5px rgb(5, 5, 5);
+        color: #ffffff;
+    }
+
+    .branco {
+        color: rgba(255, 255, 255, 0.88);
+        font-size: .9em;
+    }
+
+    .ipatuacao {
+        font-size: 1.1em;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .divisaochamada {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .chamada {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2em;
+        margin-top: 1em;
+        flex-wrap: wrap;
+    }
+
+    .chamadaind {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        cursor: pointer;
+        padding: .5em 1em;
+        width: 345px;
+        background: rgba(121, 55, 55, 0.54);
+        margin-bottom: .5em;
+        transition: all .5s;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+    }
+
+    .chamadaind:hover {
+        transform: scale(1.05);
+    }
+
+
+    .areaespecifica {
+        text-transform: uppercase !important;
+        color: #ffffff !important;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51) !important;
+        font-size: 1em !important;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: .5em !important;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .btvertodos {
+        background: rgba(119, 117, 117, 0.45) !important;
+    }
+
+    .chamadaind p {
+        color: white;
+        text-align: justify;
+        font-size: .8em;
+    }
+
+
+    .chamadatexto {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        max-width: 720px; 
+    }
+
+    .textopadrao {
+        background: rgba(121, 121, 121, 0.48);
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1em;
+        display: none;
+        border-radius: 1em;
+    }
+
+    .textofixo {
+        background: rgba(121, 121, 121, 0.48);
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 1em;
+    }
+
+
+    .texto01 p, .texto02 p, .texto03 p, .texto04 p, .texto05 p, .texto06 p, .texto07 p, .texto08 p {
+        color: white;
+        margin-bottom: 1em;
+        font-size: 1em;
+        text-shadow: 1px 1px 5px black;
+    }
+}

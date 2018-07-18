@@ -1,0 +1,85 @@
+#escritorio {
+    overflow: hidden;
+}
+
+
+/* DESKTOP*/
+@media screen and (min-width: 768px) {
+    #fotopadrao {
+        background: url(../img/escritorio/fpadrao-desktop.jpg) no-repeat center;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+
+
+    .fotoescritorio {
+        background: url(../img/escritorio/fescritorio.jpg) no-repeat left;
+        width: 60%;
+        height: 660px;
+        box-shadow: 1px 1px 20px black;
+    }
+
+    #escritorio {
+        display: flex;
+    }
+
+
+    .textoescritorio {
+        text-align: center;
+        width: 120%;
+
+    }
+
+    .textoescritorio p {
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+        padding: 1em 3em;
+        padding-left: 0;
+    }
+}
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    #fotopadrao {
+        background: url(../img/escritorio/fpadrao-mobile.jpg) no-repeat center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 3em;
+        filter: opacity(50%);
+    }
+
+
+    .fotoescritorio {
+        background: url(../img/escritorio/fescritorio.jpg) no-repeat center;
+        width: 100%;
+        max-width: 580px !important;
+        height: 350px;
+        box-shadow: 1px 1px 20px black;
+        margin: 0 auto;
+        margin-top: 4em;
+    }
+
+    #escritorio {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .textoescritorio {
+        text-align: center;
+        width: 100%;
+    }
+
+    .textoescritorio p {
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+        padding: 1em 0em;
+        padding-left: 0;
+    }
+}
+
