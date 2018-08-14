@@ -16,7 +16,7 @@ Animate - https://daneden.github.io/animate.css/
 Wow - https://mynameismatthieu.com/WOW/
 
 
-## Sobre Mim
+## Sobre
 
 Para conhecer mais sobre mim e meu trabalho acesse: https://matheusmhq.github.io/
 
