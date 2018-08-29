@@ -124,7 +124,11 @@
     
     #footer div p {
         color: rgb(170, 170, 170);
-     
+    }
+    
+    #footer div p a {
+        color: white;
+        text-decoration: underline;
     }
 }
 
@@ -274,6 +278,10 @@
     
     #footer div p {
         color: rgb(170, 170, 170);
-     
+    }
+    
+    #footer div p a {
+        color: white;
+        text-decoration: underline;
     }
 }
