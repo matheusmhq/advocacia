@@ -18,6 +18,6 @@ Wow - https://mynameismatthieu.com/WOW/
 
 ## Sobre
 
-Para conhecer mais sobre mim e meu trabalho acesse: https://matheusmhq.github.io/
+Para conhecer mais sobre mim e meu trabalho acesse: https://matheusmhq.com.br
 
 Obrigado! =)
